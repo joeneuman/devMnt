@@ -1,0 +1,77 @@
+html, body {
+background-color: #ffffff;
+ height: 100%;
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
+
+.boxOne {
+	height: 14%;
+	width: 100%; 
+	margin: 0%;
+	background-color: #D8D8D8;	
+	
+}
+
+.boxTwo {
+	height: 30%;
+	width: 95%; 
+	margin: 2% 2% 2% 2%;
+	
+	background-color: #FFFFFF;
+	
+}
+
+.boxThree {
+	position: absolute;
+	bottom: 35%;
+	height: 13%;
+	width: 100%; 
+	margin: 0%;
+	background-color: #4A90E2
+	;
+	
+}
+
+.boxFour {
+	position: absolute;
+	bottom: 24%;
+	height: 12%;
+	width: 100%; 
+	margin: 0%;
+	background-color: #50E3C2;
+	
+}
+
+.boxFive {
+	position: absolute;
+	bottom: 12%;
+	height: 12%;
+	width: 100%; 
+	margin: 0%;
+	background-color: #B8E986;	
+	
+}
+
+.boxSix {
+	position: absolute;
+	bottom: 0%;
+	height: 12%;
+	width: 100%; 
+	margin: 0%;
+	background-color: #F8E71C;
+	
+}
+
+
+
+.box {
+   position: absolute;
+   top: 1%;
+   left: 2%;
+   width: 100px;
+   height: 12%;
+   background-color: #4A90E2;
+ 
+}

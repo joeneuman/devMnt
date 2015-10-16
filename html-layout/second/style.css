@@ -1,0 +1,42 @@
+html, body {
+background-color: #ffffff;
+ height: 100%;
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
+.boxleft {
+	height: 100%;
+	width: 34%; 
+	margin: 0%;
+	background-color: #4A90E2;	
+	float: left
+}
+
+.boxright {
+	height: 100%;
+	width: 33%; 
+	margin: 0%;
+	background-color: #B8E986;
+	float: left
+}
+
+.boxcenter {
+	height: 100%;
+	width: 33%; 
+	margin: 0%;
+	background-color: #50E3C2;
+	float: left;
+	
+	display: none;
+}
+
+
+img {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 33%;
+   height: auto;
+ 
+}
