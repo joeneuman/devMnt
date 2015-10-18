@@ -9,6 +9,7 @@ html, body {
 .boxtop {
     
     height: 30px;
+   border: 5 px;
     width: 100%; 
     background-color: #004E8E;	
     border-bottom: 1px solid #3386C7;
@@ -38,34 +39,31 @@ html, body {
 }
 
 .flex-container {
-    width: 900px;
-    
+    width: 100%;
+    top: 40px;
     margin: 0 auto;
-    
+
     display: flex;
     
     justify-content: space-around;
 }
-
-img {
-    /*position: absolute;
-    top: 18%;
-    right: 6%;
-    left: 6%;*/
-    /*width: 60%;*/
-    /*height: auto;*/
+#logotop {
+    /*outline: 5px solid red;*/
+     margin: 10px;
+    width: 25%;
+    height: auto%;
 }
 
 #slideshow {
     /*outline: 5px solid red;*/
-    
-    width: 95%;
+  
+    width: 98%;
     height: 70%;
 }
 
 logo {
     position: absolute;
-    top: 10%;
+    top: 30%;
     right: 20%;
     /*left: %;*/
     width: 88%;
