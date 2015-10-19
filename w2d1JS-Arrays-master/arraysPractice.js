@@ -1,10 +1,14 @@
 //Once you complete a problem, open up Chrome and check the answer in the console.
 
-
+var mon = [17,20,30];
 var arr = [10,20,30];
-//Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the given array.
-
+//Create a function named 'first' that is given 'arr' as the peramiter and returns the first item in the given array.
   //Code Here
+  function first(list){
+    return list[0];
+  }
+console.log(first(arr));
+console.log(first(mon));
 
 
 //Next problem
@@ -13,6 +17,9 @@ var arr = [10,20,30];
 
 var arr = [40,50,60];
 //Create a function named 'last' that is given 'arr' as the argument and returns the last item in the given array.
+function last(){
+
+}
 
 
   //Code Here
