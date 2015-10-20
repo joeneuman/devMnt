@@ -137,6 +137,18 @@ for(var stateName in states) {
 
 
 
+function myFavFood(food){
+  if (food === 'pizza'){
+   return 'I love pizza'
+} else {
+  if (food === 'hot pockets'){
+  return 'hot pockets woo'
+} else {
+   return 'I have bad taste in foods'
+}
+}
+}
+
 
 var user = {
     name: 'Tyler McGinnis',

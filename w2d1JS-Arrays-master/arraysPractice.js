@@ -7,8 +7,8 @@ var arr = [10,20,30];
   function first(list){
     return list[0];
   }
-console.log(first(arr));
-console.log(first(mon));
+// console.log(first(arr));
+// console.log(first(mon));
 
 
 //Next problem
@@ -17,22 +17,27 @@ console.log(first(mon));
 
 var arr = [40,50,60];
 //Create a function named 'last' that is given 'arr' as the argument and returns the last item in the given array.
-function last(){
-
-}
-
-
   //Code Here
-
+function last(list){
+  return list[list.length -1];
+}
+// console.log(last(arr));
 
 //Next Problem
 
-
 var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
+var pets = ['Bird', 'Dog', 'Cat', 'Fish', 'Sloth'];
 //Create a function named 'looper' that is given family as it's only argument, loops through the given array, and alerts every item in the array.
-
   //Code Here
-
+function looper(fam){
+  for (var i = 0; i < fam.length; i++) {
+    var element = fam[i];
+    console.log(element);  
+  }
+}
+// looper(family)
+// looper(pets)
+// looper(mon) 
 
 //Next problem
 
@@ -40,8 +45,16 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 
 var letters = ['A', 'B', 'C', 'D', 'E'];
 //Write a function called reversedLooper that is given letters as it's only argument and loops through the given array backwards alerting every item in the array starting at the end.
-
   //Code Here
+function reversedLooper(lett){
+  return lett.slice().reverse();
+}
+var newName = (reversedLooper(letters));
+
+//looper(newName);
+
+//console.log(last(letters));
+
 
 
 //Next Problem
@@ -49,11 +62,26 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 var nums = [1,2,3,6,22,98,45,23,22,12];
 //Write a function named evenFinder that is given nums as it's only argument and removes all values that aren't even from the given array.
-
   //Code Here
+function evenFinder(bums){
+  for (var index = bums.length - 1; index >= 0;
+       index--) {
+        
+        if (bums[index] % 2 === 1) {
+          bums.splice(index, 1);
+                    
+        }         
+  };
+  
+  return bums;
+   
+}
+nums = evenFinder(nums);
+ console.log(nums); 
+ mon = evenFinder(mon);
+ console.log(mon);
 
-
-//Next problem
+//Next problem 
 
 
 var nums = [1,2,34,54,55,34,32,11,19,17,54,66,13];
